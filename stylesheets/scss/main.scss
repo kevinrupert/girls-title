@@ -1,0 +1,195 @@
+@import "../bourbon/bourbon";
+@import "../base/grid-settings";
+@import "../neat/neat";
+@import "../base/base";
+
+/// Mixins
+
+@mixin vertical-center {
+  position: relative;
+  top: 50%;
+  @include transform(translateY(-50%));
+}
+
+/// end Mixins
+
+.section {
+
+  height: 100vh;
+  padding: 24px;
+
+  p {
+
+    color: white;
+  }
+
+  &.logo {
+
+    position: fixed;
+    width: 100%;
+
+    svg {
+
+      display: block;
+      @include vertical-center();
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 900px;
+
+      path, polygon, rect {
+
+        fill: #ffffff;
+        @include transition(all 0.2s ease-in-out);
+      }
+    }
+
+    &.s1-e2-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #42361a;
+        }
+      } 
+    }
+
+    &.s1-e3-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #ffffff;
+        }
+      } 
+    }
+
+    &.s1-e4-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #ffda00;
+        }
+      } 
+    }
+
+    &.s1-e5-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #000000;
+        }
+      } 
+    }
+
+    &.s1-e6-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #451e00;
+        }
+      } 
+    }
+
+    &.s1-e7-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #d800de;
+        }
+      } 
+    }
+
+    &.s1-e8-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #3e4a48;
+        }
+      } 
+    }
+
+    &.s1-e9-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #efcfa3;
+        }
+      } 
+    }
+
+    &.s1-e10-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #8bd6ef;
+        }
+      } 
+    }
+  }
+
+  &.s1-e1-bg {
+
+    background-color: #000000;
+  }
+
+  &.s1-e2-bg {
+
+    background-color: #648c83;
+  }
+
+  &.s1-e3-bg {
+
+    background-color: #a70100;
+  }
+
+  &.s1-e4-bg {
+
+    background-color: #000000;
+  }
+
+  &.s1-e5-bg {
+
+    background-color: #a0279d;
+  }
+
+  &.s1-e6-bg {
+
+    background-color: #f7dabb;
+  }
+
+  &.s1-e7-bg {
+
+    background-color: #3ed72f;
+  }
+
+  &.s1-e8-bg {
+
+    background-color: #ffb9f9;
+  }
+
+  &.s1-e9-bg {
+
+    background-color: #602544;
+  }
+
+  &.s1-e10-bg {
+
+    background-color: #d8f1f4;
+  }
+}
