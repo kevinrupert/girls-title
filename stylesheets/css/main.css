@@ -234,6 +234,26 @@ picture {
       fill: #efcfa3; }
     .section.logo.s1-e10-type svg path, .section.logo.s1-e10-type svg polygon, .section.logo.s1-e10-type svg rect {
       fill: #8bd6ef; }
+    .section.logo.s2-e1-type svg path, .section.logo.s2-e1-type svg polygon, .section.logo.s2-e1-type svg rect {
+      fill: #f9f9fb; }
+    .section.logo.s2-e2-type svg path, .section.logo.s2-e2-type svg polygon, .section.logo.s2-e2-type svg rect {
+      fill: #000000; }
+    .section.logo.s2-e3-type svg path, .section.logo.s2-e3-type svg polygon, .section.logo.s2-e3-type svg rect {
+      fill: #ed152e; }
+    .section.logo.s2-e4-type svg path, .section.logo.s2-e4-type svg polygon, .section.logo.s2-e4-type svg rect {
+      fill: #010101; }
+    .section.logo.s2-e5-type svg path, .section.logo.s2-e5-type svg polygon, .section.logo.s2-e5-type svg rect {
+      fill: #a83115; }
+    .section.logo.s2-e6-type svg path, .section.logo.s2-e6-type svg polygon, .section.logo.s2-e6-type svg rect {
+      fill: #fbbbd8; }
+    .section.logo.s2-e7-type svg path, .section.logo.s2-e7-type svg polygon, .section.logo.s2-e7-type svg rect {
+      fill: #474096; }
+    .section.logo.s2-e8-type svg path, .section.logo.s2-e8-type svg polygon, .section.logo.s2-e8-type svg rect {
+      fill: #58c2ba; }
+    .section.logo.s2-e9-type svg path, .section.logo.s2-e9-type svg polygon, .section.logo.s2-e9-type svg rect {
+      fill: #468e43; }
+    .section.logo.s2-e10-type svg path, .section.logo.s2-e10-type svg polygon, .section.logo.s2-e10-type svg rect {
+      fill: #cd3181; }
   .section.s1-e1-bg {
     background-color: #000000; }
   .section.s1-e2-bg {
@@ -254,5 +274,25 @@ picture {
     background-color: #602544; }
   .section.s1-e10-bg {
     background-color: #d8f1f4; }
+  .section.s2-e1-bg {
+    background-color: #010103; }
+  .section.s2-e2-bg {
+    background-color: #ffffff; }
+  .section.s2-e3-bg {
+    background-color: #ffffff; }
+  .section.s2-e4-bg {
+    background-color: #77cad2; }
+  .section.s2-e5-bg {
+    background-color: #968b88; }
+  .section.s2-e6-bg {
+    background-color: #f26258; }
+  .section.s2-e7-bg {
+    background-color: #553e3d; }
+  .section.s2-e8-bg {
+    background-color: #000000; }
+  .section.s2-e9-bg {
+    background-color: #b07f50; }
+  .section.s2-e10-bg {
+    background-color: #1a1c65; }
 
 /*# sourceMappingURL=main.css.map */

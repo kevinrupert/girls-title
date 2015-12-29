@@ -51,7 +51,7 @@
 
           fill: #42361a;
         }
-      } 
+      }
     }
 
     &.s1-e3-type {
@@ -62,7 +62,7 @@
 
           fill: #ffffff;
         }
-      } 
+      }
     }
 
     &.s1-e4-type {
@@ -73,7 +73,7 @@
 
           fill: #ffda00;
         }
-      } 
+      }
     }
 
     &.s1-e5-type {
@@ -84,7 +84,7 @@
 
           fill: #000000;
         }
-      } 
+      }
     }
 
     &.s1-e6-type {
@@ -95,7 +95,7 @@
 
           fill: #451e00;
         }
-      } 
+      }
     }
 
     &.s1-e7-type {
@@ -106,7 +106,7 @@
 
           fill: #d800de;
         }
-      } 
+      }
     }
 
     &.s1-e8-type {
@@ -117,7 +117,7 @@
 
           fill: #3e4a48;
         }
-      } 
+      }
     }
 
     &.s1-e9-type {
@@ -128,7 +128,7 @@
 
           fill: #efcfa3;
         }
-      } 
+      }
     }
 
     &.s1-e10-type {
@@ -139,9 +139,121 @@
 
           fill: #8bd6ef;
         }
-      } 
+      }
+    }
+
+    &.s2-e1-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #f9f9fb;
+        }
+      }
+    }
+
+    &.s2-e2-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #000000;
+        }
+      }
+    }
+
+    &.s2-e3-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #ed152e;
+        }
+      }
+    }
+
+    &.s2-e4-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #010101;
+        }
+      }
+    }
+
+    &.s2-e5-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #a83115;
+        }
+      }
+    }
+
+    &.s2-e6-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #fbbbd8;
+        }
+      }
+    }
+
+    &.s2-e7-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #474096;
+        }
+      }
+    }
+
+    &.s2-e8-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #58c2ba;
+        }
+      }
+    }
+
+    &.s2-e9-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #468e43;
+        }
+      }
+    }
+
+    &.s2-e10-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #cd3181;
+        }
+      }
     }
   }
+
+  ///
 
   &.s1-e1-bg {
 
@@ -191,5 +303,55 @@
   &.s1-e10-bg {
 
     background-color: #d8f1f4;
+  }
+
+  &.s2-e1-bg {
+
+    background-color: #010103;
+  }
+
+  &.s2-e2-bg {
+
+    background-color: #ffffff;
+  }
+
+  &.s2-e3-bg {
+
+    background-color: #ffffff;
+  }
+
+  &.s2-e4-bg {
+
+    background-color: #77cad2;
+  }
+
+  &.s2-e5-bg {
+
+    background-color: #968b88;
+  }
+
+  &.s2-e6-bg {
+
+    background-color: #f26258;
+  }
+
+  &.s2-e7-bg {
+
+    background-color: #553e3d;
+  }
+
+  &.s2-e8-bg {
+
+    background-color: #000000;
+  }
+
+  &.s2-e9-bg {
+
+    background-color: #b07f50;
+  }
+
+  &.s2-e10-bg {
+
+    background-color: #1a1c65;
   }
 }
