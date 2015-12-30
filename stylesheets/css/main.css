@@ -254,6 +254,32 @@ picture {
       fill: #468e43; }
     .section.logo.s2-e10-type svg path, .section.logo.s2-e10-type svg polygon, .section.logo.s2-e10-type svg rect {
       fill: #cd3181; }
+    .section.logo.s3-e1-type svg path, .section.logo.s3-e1-type svg polygon, .section.logo.s3-e1-type svg rect {
+      fill: #ffffff; }
+    .section.logo.s3-e2-type svg path, .section.logo.s3-e2-type svg polygon, .section.logo.s3-e2-type svg rect {
+      fill: #f9b672; }
+    .section.logo.s3-e3-type svg path, .section.logo.s3-e3-type svg polygon, .section.logo.s3-e3-type svg rect {
+      fill: #f2b5b1; }
+    .section.logo.s3-e4-type svg path, .section.logo.s3-e4-type svg polygon, .section.logo.s3-e4-type svg rect {
+      fill: #567984; }
+    .section.logo.s3-e5-type svg path, .section.logo.s3-e5-type svg polygon, .section.logo.s3-e5-type svg rect {
+      fill: #000000;
+      stroke: #2d2d2d; }
+    .section.logo.s3-e6-type svg path, .section.logo.s3-e6-type svg polygon, .section.logo.s3-e6-type svg rect {
+      fill: #303638;
+      stroke: none; }
+    .section.logo.s3-e7-type svg path, .section.logo.s3-e7-type svg polygon, .section.logo.s3-e7-type svg rect {
+      fill: #fdff53; }
+    .section.logo.s3-e8-type svg path, .section.logo.s3-e8-type svg polygon, .section.logo.s3-e8-type svg rect {
+      fill: #823f46; }
+    .section.logo.s3-e9-type svg path, .section.logo.s3-e9-type svg polygon, .section.logo.s3-e9-type svg rect {
+      fill: #ffffff; }
+    .section.logo.s3-e10-type svg path, .section.logo.s3-e10-type svg polygon, .section.logo.s3-e10-type svg rect {
+      fill: #3aad9a; }
+    .section.logo.s3-e11-type svg path, .section.logo.s3-e11-type svg polygon, .section.logo.s3-e11-type svg rect {
+      fill: #929265; }
+    .section.logo.s3-e12-type svg path, .section.logo.s3-e12-type svg polygon, .section.logo.s3-e12-type svg rect {
+      fill: #d09e00; }
   .section.s1-e1-bg {
     background-color: #000000; }
   .section.s1-e2-bg {
@@ -279,7 +305,7 @@ picture {
   .section.s2-e2-bg {
     background-color: #ffffff; }
   .section.s2-e3-bg {
-    background-color: #ffffff; }
+    background-color: #f3f3f3; }
   .section.s2-e4-bg {
     background-color: #77cad2; }
   .section.s2-e5-bg {
@@ -294,5 +320,33 @@ picture {
     background-color: #b07f50; }
   .section.s2-e10-bg {
     background-color: #1a1c65; }
+  .section.s3-e1-bg {
+    background-color: #000000; }
+  .section.s3-e2-bg {
+    background-color: #40403e; }
+  .section.s3-e3-bg {
+    background-color: #1c1613; }
+  .section.s3-e4-bg {
+    background-color: #c29c80; }
+  .section.s3-e5-bg {
+    background-color: #000000; }
+  .section.s3-e6-bg {
+    background-color: #c28391; }
+  .section.s3-e7-bg {
+    background-color: #395665;
+    background-image: url("/img/s3-e7-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .section.s3-e8-bg {
+    background-color: #354b5f; }
+  .section.s3-e9-bg {
+    background-color: #7fa5ba; }
+  .section.s3-e10-bg {
+    background-color: #2f583c; }
+  .section.s3-e11-bg {
+    background-color: #1c4e4f; }
+  .section.s3-e12-bg {
+    background-color: #000000; }
 
 /*# sourceMappingURL=main.css.map */

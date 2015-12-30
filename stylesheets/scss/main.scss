@@ -251,7 +251,143 @@
         }
       }
     }
+
+    &.s3-e1-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #ffffff;
+        }
+      }
+    }
+
+    &.s3-e2-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #f9b672;
+        }
+      }
+    }
+
+    &.s3-e3-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #f2b5b1;
+        }
+      }
+    }
+
+    &.s3-e4-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #567984;
+        }
+      }
+    }
+
+    &.s3-e5-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #000000;
+          stroke: #2d2d2d;
+        }
+      }
+    }
+
+    &.s3-e6-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #303638;
+          stroke: none;
+        }
+      }
+    }
+
+    &.s3-e7-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #fdff53;
+        }
+      }
+    }
+
+    &.s3-e8-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #823f46;
+        }
+      }
+    }
+
+    &.s3-e9-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #ffffff;
+        }
+      }
+    }
+
+    &.s3-e10-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #3aad9a;
+        }
+      }
+    }
+
+    &.s3-e11-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #929265;
+        }
+      }
+    }
+
+    &.s3-e12-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #d09e00;
+        }
+      }
+    }
   }
+
+
 
   ///
 
@@ -317,7 +453,7 @@
 
   &.s2-e3-bg {
 
-    background-color: #ffffff;
+    background-color: #f3f3f3;
   }
 
   &.s2-e4-bg {
@@ -353,5 +489,69 @@
   &.s2-e10-bg {
 
     background-color: #1a1c65;
+  }
+
+  &.s3-e1-bg {
+
+    background-color: #000000;
+  }
+
+  &.s3-e2-bg {
+
+    background-color: #40403e;
+  }
+
+  &.s3-e3-bg {
+
+    background-color: #1c1613;
+  }
+
+  &.s3-e4-bg {
+
+    background-color: #c29c80;
+  }
+
+  &.s3-e5-bg {
+
+    background-color: #000000;
+  }
+
+  &.s3-e6-bg {
+
+    background-color: #c28391;
+  }
+
+  &.s3-e7-bg {
+
+    background-color: #395665;
+    background-image: url('/img/s3-e7-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &.s3-e8-bg {
+
+    background-color: #354b5f;
+  }
+
+  &.s3-e9-bg {
+
+    background-color: #7fa5ba;
+  }
+
+  &.s3-e10-bg {
+
+    background-color: #2f583c;
+  }
+
+  &.s3-e11-bg {
+
+    background-color: #1c4e4f;
+  }
+
+  &.s3-e12-bg {
+
+    background-color: #000000;
   }
 }
