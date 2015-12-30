@@ -23,6 +23,34 @@
     color: white;
   }
 
+  &.s2-e2-bg, &.s2-e3-bg, &.outro {
+
+    p {
+
+      color: black;
+    }
+  }
+
+  &.outro {
+
+    color: black;
+    text-align: center;
+
+    .outro-text {
+
+      @include vertical-center();
+    }
+
+    h1 {
+
+      font-weight: 400;
+      font-style: normal;
+      @include media($medium-screen-up) {
+        font-size: 2em;
+      }
+    }
+  }
+
   &.logo {
 
     position: fixed;
@@ -385,9 +413,131 @@
         }
       }
     }
+
+    &.s4-e1-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #f7f7f7;
+        }
+      }
+    }
+
+    &.s4-e2-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #0f0f0f;
+        }
+      }
+    }
+
+    &.s4-e3-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #cb96c5;
+        }
+      }
+    }
+
+    &.s4-e4-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #62657b;
+        }
+      }
+    }
+
+    &.s4-e5-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #4a3f90;
+        }
+      }
+    }
+
+    &.s4-e6-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #0081b6;
+        }
+      }
+    }
+
+    &.s4-e7-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #989fad;
+        }
+      }
+    }
+
+    &.s4-e8-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #ffffff;
+        }
+      }
+    }
+
+    &.s4-e9-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #ffffff;
+          opacity: 0.6;
+        }
+      }
+    }
+
+    &.s4-e10-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #eaeaea;
+          opacity: 1;
+        }
+      }
+    }
+
+    &.outro-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #ffffff;
+          opacity: 0;
+        }
+      }
+    }
   }
-
-
 
   ///
 
@@ -453,7 +603,7 @@
 
   &.s2-e3-bg {
 
-    background-color: #f3f3f3;
+    background-color: #ffffff;
   }
 
   &.s2-e4-bg {
@@ -553,5 +703,63 @@
   &.s3-e12-bg {
 
     background-color: #000000;
+  }
+
+  &.s4-e1-bg {
+
+    background-color: #010101;
+  }
+
+  &.s4-e2-bg {
+
+    background-color: #e4b025;
+  }
+
+  &.s4-e3-bg {
+
+    background-color: #000000;
+  }
+
+  &.s4-e4-bg {
+
+    background-color: #cae7ea;
+  }
+
+  &.s4-e5-bg {
+
+    background-color: #647d72;
+  }
+
+  &.s4-e6-bg {
+
+    background-color: #fd8ed5;
+  }
+
+  &.s4-e7-bg {
+
+    background-color: #3a486c;
+  }
+
+  &.s4-e8-bg {
+
+    background-color: #0f3720;
+    background-image: url('/img/s4-e8-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &.s4-e9-bg {
+
+    background-color: #816a40;
+    background-image: url('/img/s4-e9-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &.s4-e10-bg {
+
+    background-color: #c97ca3;
   }
 }

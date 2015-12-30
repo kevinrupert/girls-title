@@ -215,3 +215,80 @@ $('.s3-e12-bg').waypoint(function (direction) {
         $('.logo').removeClass('s3-e12-type');
     }
 }, {offset: '50%' });
+$('.s4-e1-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s4-e1-type');
+    } else {
+        $('.logo').removeClass('s4-e1-type');
+    }
+}, {offset: '50%' });
+$('.s4-e2-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s4-e2-type');
+    } else {
+        $('.logo').removeClass('s4-e2-type');
+    }
+}, {offset: '50%' });
+$('.s4-e3-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s4-e3-type');
+    } else {
+        $('.logo').removeClass('s4-e3-type');
+    }
+}, {offset: '50%' });
+$('.s4-e4-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s4-e4-type');
+    } else {
+        $('.logo').removeClass('s4-e4-type');
+    }
+}, {offset: '50%' });
+$('.s4-e5-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s4-e5-type');
+    } else {
+        $('.logo').removeClass('s4-e5-type');
+    }
+}, {offset: '50%' });
+$('.s4-e6-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s4-e6-type');
+    } else {
+        $('.logo').removeClass('s4-e6-type');
+    }
+}, {offset: '50%' });
+$('.s4-e7-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s4-e7-type');
+    } else {
+        $('.logo').removeClass('s4-e7-type');
+    }
+}, {offset: '50%' });
+$('.s4-e8-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s4-e8-type');
+    } else {
+        $('.logo').removeClass('s4-e8-type');
+    }
+}, {offset: '50%' });
+$('.s4-e9-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s4-e9-type');
+    } else {
+        $('.logo').removeClass('s4-e9-type');
+    }
+}, {offset: '50%' });
+$('.s4-e10-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s4-e10-type');
+    } else {
+        $('.logo').removeClass('s4-e10-type');
+    }
+}, {offset: '50%' });
+$('.outro').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('outro-type');
+    } else {
+        $('.logo').removeClass('outro-type');
+    }
+}, {offset: '50%' });
