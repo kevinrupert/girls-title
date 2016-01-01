@@ -45,9 +45,7 @@
 
       font-weight: 400;
       font-style: normal;
-      @include media($medium-screen-up) {
-        font-size: 2em;
-      }
+      font-size: 2em;
     }
   }
 
@@ -332,6 +330,7 @@
 
           fill: #000000;
           stroke: #2d2d2d;
+          stroke-width: 2px;
         }
       }
     }

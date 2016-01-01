@@ -211,10 +211,8 @@ picture {
       transform: translateY(-50%); }
     .section.outro h1 {
       font-weight: 400;
-      font-style: normal; }
-      @media screen and (min-width: 40em) {
-        .section.outro h1 {
-          font-size: 2em; } }
+      font-style: normal;
+      font-size: 2em; }
   .section.logo {
     position: fixed;
     width: 100%; }
@@ -283,7 +281,8 @@ picture {
       fill: #567984; }
     .section.logo.s3-e5-type svg path, .section.logo.s3-e5-type svg polygon, .section.logo.s3-e5-type svg rect {
       fill: #000000;
-      stroke: #2d2d2d; }
+      stroke: #2d2d2d;
+      stroke-width: 2px; }
     .section.logo.s3-e6-type svg path, .section.logo.s3-e6-type svg polygon, .section.logo.s3-e6-type svg rect {
       fill: #303638;
       stroke: none; }
