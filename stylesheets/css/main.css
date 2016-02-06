@@ -276,11 +276,9 @@ picture {
     .section.logo.s3-e2-type svg path, .section.logo.s3-e2-type svg polygon, .section.logo.s3-e2-type svg rect {
       fill: #f9b672; }
     .section.logo.s3-e3-type svg path, .section.logo.s3-e3-type svg polygon, .section.logo.s3-e3-type svg rect {
-      fill: #f2b5b1;
-      stroke-width: 0px; }
+      fill: #f2b5b1; }
     .section.logo.s3-e4-type svg path, .section.logo.s3-e4-type svg polygon, .section.logo.s3-e4-type svg rect {
       fill: #567984;
-      stroke: #567984;
       stroke-width: 0px; }
     .section.logo.s3-e5-type svg path, .section.logo.s3-e5-type svg polygon, .section.logo.s3-e5-type svg rect {
       fill: #000000;
