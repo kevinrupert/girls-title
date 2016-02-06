@@ -65,7 +65,7 @@
       path, polygon, rect {
 
         fill: #ffffff;
-        @include transition(all 0.2s ease-in-out);
+        @include transition(all 0.3s ease-in-out);
       }
     }
 
@@ -318,6 +318,8 @@
         path, polygon, rect {
 
           fill: #567984;
+          stroke: #2d2d2d;
+          stroke-width: 0px;
         }
       }
     }
@@ -342,7 +344,7 @@
         path, polygon, rect {
 
           fill: #303638;
-          stroke: none;
+          stroke-width: 0px;
         }
       }
     }
@@ -354,6 +356,7 @@
         path, polygon, rect {
 
           fill: #fdff53;
+          stroke: none;
         }
       }
     }
