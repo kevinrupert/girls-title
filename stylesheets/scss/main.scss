@@ -527,13 +527,36 @@
       }
     }
 
+    &.s5-e1-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #f1928c;
+        }
+      }
+    }
+
+    &.s5-e2-type {
+
+      svg {
+
+        path, polygon, rect {
+
+          fill: #009352;
+          opacity: 1;
+        }
+      }
+    }
+
     &.outro-type {
 
       svg {
 
         path, polygon, rect {
 
-          fill: #ffffff;
+          fill: #009352;
           opacity: 0;
         }
       }
@@ -762,5 +785,19 @@
   &.s4-e10-bg {
 
     background-color: #c97ca3;
+  }
+
+  &.s5-e1-bg {
+
+    background-color: #abc09b;
+    background-image: url('/img/s5-e1-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &.s5-e2-bg {
+
+    background-color: #00a7f3;
   }
 }

@@ -285,6 +285,20 @@ $('.s4-e10-bg').waypoint(function (direction) {
         $('.logo').removeClass('s4-e10-type');
     }
 }, {offset: '50%' });
+$('.s5-e1-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s5-e1-type');
+    } else {
+        $('.logo').removeClass('s5-e1-type');
+    }
+}, {offset: '50%' });
+$('.s5-e2-bg').waypoint(function (direction) {
+    if (direction == 'down') {
+        $('.logo').addClass('s5-e2-type');
+    } else {
+        $('.logo').removeClass('s5-e2-type');
+    }
+}, {offset: '50%' });
 $('.outro').waypoint(function (direction) {
     if (direction == 'down') {
         $('.logo').addClass('outro-type');

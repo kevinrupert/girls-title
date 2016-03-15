@@ -322,8 +322,13 @@ picture {
     .section.logo.s4-e10-type svg path, .section.logo.s4-e10-type svg polygon, .section.logo.s4-e10-type svg rect {
       fill: #eaeaea;
       opacity: 1; }
+    .section.logo.s5-e1-type svg path, .section.logo.s5-e1-type svg polygon, .section.logo.s5-e1-type svg rect {
+      fill: #f1928c; }
+    .section.logo.s5-e2-type svg path, .section.logo.s5-e2-type svg polygon, .section.logo.s5-e2-type svg rect {
+      fill: #009352;
+      opacity: 1; }
     .section.logo.outro-type svg path, .section.logo.outro-type svg polygon, .section.logo.outro-type svg rect {
-      fill: #ffffff;
+      fill: #009352;
       opacity: 0; }
   .section.s1-e1-bg {
     background-color: #000000; }
@@ -421,5 +426,13 @@ picture {
     background-size: cover; }
   .section.s4-e10-bg {
     background-color: #c97ca3; }
+  .section.s5-e1-bg {
+    background-color: #abc09b;
+    background-image: url("/img/s5-e1-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .section.s5-e2-bg {
+    background-color: #00a7f3; }
 
 /*# sourceMappingURL=main.css.map */
